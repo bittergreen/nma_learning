@@ -150,56 +150,6 @@ def get_data(n_stim, train_data, train_labels):
     return r, ori
 
 
-def real_get_data():
-    download_data()
-    # @markdown Execute this cell to load and visualize data
-
-    # Load data
-    resp_all, stimuli_all = load_data(fname)  # argument to this function specifies bin width
-    n_stimuli, n_neurons = resp_all.shape
-
-    """
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(2 * 6, 5))
-
-    # Visualize data matrix
-    plot_data_matrix(resp_all[:, :100].T, ax1)  # plot responses of first 100 neurons
-    ax1.set_xlabel('stimulus')
-    ax1.set_ylabel('neuron')
-
-    # Plot tuning curves of three random neurons
-    ineurons = np.random.choice(n_neurons, 3, replace=False)  # pick three random neurons
-    ax2.plot(stimuli_all, resp_all[:, ineurons])
-    ax2.set_xlabel('stimulus orientation ($^o$)')
-    ax2.set_ylabel('neural response')
-    ax2.set_xticks(np.linspace(0, 360, 5))
-
-    fig.suptitle(f'{n_neurons} neurons in response to {n_stimuli} stimuli')
-    fig.tight_layout()
-    plt.show()
-    """
-
-    # @markdown Execute this cell to split into training and test sets
-
-    # Set random seeds for reproducibility
-    np.random.seed(4)
-    torch.manual_seed(4)
-
-    # Split data into training set and testing set
-    n_train = int(0.6 * n_stimuli)  # use 60% of all data for training set
-    ishuffle = torch.randperm(n_stimuli)
-    itrain = ishuffle[:n_train]  # indices of data samples to include in training set
-    itest = ishuffle[n_train:]  # indices of data samples to include in testing set
-    stimuli_test = stimuli_all[itest]
-    resp_test = resp_all[itest]
-    stimuli_train = stimuli_all[itrain]
-    resp_train = resp_all[itrain]
-
-    # Get neural responses (r) to and orientation (ori) to one stimulus in dataset
-    r, ori = get_data(1, resp_train, stimuli_train)  # using helper function get_data
-
-    return n_neurons, r, ori
-
-
 # @title Plotting Functions
 
 def show_stimulus(img, ax=None, show=False):
@@ -644,4 +594,6 @@ def get_hidden_activity(net, stimuli, layer_labels):
 
 
 if __name__ == '__main__':
-    pass
+    # download data in advance
+    download_data()
+
