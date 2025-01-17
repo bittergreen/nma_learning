@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from w2.d1_linear_systems.utils import plot_random_walk_sims, plot_mean_var_by_timestep, plot_ddm, var_comparison_plot
+from w2.d2_linear_systems.utils import plot_random_walk_sims, plot_mean_var_by_timestep, plot_ddm, var_comparison_plot
 
 
 def random_walk_simulator(N, T, mu=0, sigma=1):

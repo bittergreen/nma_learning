@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from w2.d1_linear_systems.utils import plot_switch_simulation, plot_interswitch_interval_histogram, \
+from w2.d2_linear_systems.utils import plot_switch_simulation, plot_interswitch_interval_histogram, \
     plot_state_probabilities
 
 

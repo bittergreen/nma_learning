@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from w2.d1_linear_systems.utils import ddm, plot_residual_histogram, build_time_delay_matrices, plot_training_fit, \
+from w2.d2_linear_systems.utils import ddm, plot_residual_histogram, build_time_delay_matrices, plot_training_fit, \
     error_rate
 
 
