@@ -2,8 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from w2.d3_biological_neuron_models.utils import default_pars, Poisson_generator, my_illus_LIFSYN, my_illus_STD, \
-    dynamic_syn, plot_volt_trace
+from compneuro.w2.d3_biological_neuron_models.utils import default_pars, Poisson_generator, my_illus_LIFSYN, dynamic_syn, plot_volt_trace
 
 
 def run_LIF_cond(pars, I_inj, pre_spike_train_ex, pre_spike_train_in):

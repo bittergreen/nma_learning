@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-from w2.d3_biological_neuron_models.utils import mySTDP_plot, my_example_P, my_raster_plot
+from compneuro.w2.d3_biological_neuron_models.utils import mySTDP_plot, my_example_P, my_raster_plot
 
 
 # @title Helper functions

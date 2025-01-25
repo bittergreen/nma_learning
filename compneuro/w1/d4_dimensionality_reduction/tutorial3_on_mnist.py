@@ -1,10 +1,8 @@
 # Imports
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_openml
 
-from w1.d4_dimensionality_reduction.utils import plot_MNIST_sample, pca, plot_eigenvalues, plot_variance_explained, \
-    plot_MNIST_reconstruction, plot_MNIST_weights
+from compneuro.w1.d4_dimensionality_reduction.utils import pca, plot_MNIST_weights
 
 
 def get_variance_explained(evals):

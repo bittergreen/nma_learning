@@ -1,9 +1,8 @@
 # Imports
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy.optimize as opt  # root-finding algorithm
 
-from w2.d4_dynamic_networks.utils import default_pars, simulate_wc
+from compneuro.w2.d4_dynamic_networks.utils import default_pars, simulate_wc
 
 
 def my_OU(pars, sig, myseed=False):

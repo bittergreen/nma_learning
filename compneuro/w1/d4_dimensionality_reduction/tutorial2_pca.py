@@ -1,9 +1,7 @@
 # Imports
 import numpy as np
-import matplotlib.pyplot as plt
 
-from w1.d4_dimensionality_reduction.utils import calculate_cov_matrix, get_data, plot_basis_vectors, \
-    sort_evals_descending, plot_data_new_basis, plot_eigenvalues
+from compneuro.w1.d4_dimensionality_reduction.utils import calculate_cov_matrix, get_data, sort_evals_descending, plot_data_new_basis, plot_eigenvalues
 
 
 def get_sample_cov_matrix(X):

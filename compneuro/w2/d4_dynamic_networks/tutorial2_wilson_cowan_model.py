@@ -1,10 +1,9 @@
 # Imports
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy.optimize as opt  # root-finding algorithm
 
-from w2.d4_dynamic_networks.utils import default_pars, my_test_plot, F, plot_FI_inverse, get_E_nullcline, \
-    get_I_nullcline, plot_nullclines, plot_complete_analysis
+from compneuro.w2.d4_dynamic_networks.utils import default_pars, my_test_plot, F, get_E_nullcline, \
+    get_I_nullcline, plot_complete_analysis
 
 
 def simulate_wc(tau_E, a_E, theta_E, tau_I, a_I, theta_I,

@@ -1,4 +1,4 @@
-w1/d1_model_types/spike_times.npy
-w1/d3_glm/RGCdata.mat
-w1/d3_glm/W1D4_steinmetz_data.npz
-w1/d5_deeplearning/W3D4_stringer_oribinned1.npz
+compneuro/w1/d1_model_types/spike_times.npy
+compneuro/w1/d3_glm/RGCdata.mat
+compneuro/w1/d3_glm/W1D4_steinmetz_data.npz
+compneuro/w1/d5_deeplearning/W3D4_stringer_oribinned1.npz

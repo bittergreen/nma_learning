@@ -1,15 +1,10 @@
 # Imports
 import numpy as np
 from scipy.stats import zscore
-import matplotlib as mpl
-from matplotlib import pyplot as plt
 
 import torch
-from torch import nn, optim
-from sklearn.decomposition import PCA
-from sklearn.manifold import TSNE
 
-from w1.d5_deeplearning.utils import CNN, grating, train, load_data, fname, get_hidden_activity, plot_multiple_rdm, \
+from compneuro.w1.d5_deeplearning.utils import CNN, grating, train, load_data, fname, get_hidden_activity, plot_multiple_rdm, \
     plot_rdm_rdm_correlations
 
 # Set random seeds for reproducibility

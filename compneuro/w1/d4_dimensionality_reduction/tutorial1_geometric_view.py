@@ -1,7 +1,7 @@
 # @markdown Execute this cell to get helper function `get_data`
 import numpy as np
 
-from w1.d4_dimensionality_reduction.utils import plot_data, plot_basis_vectors, plot_data_new_basis
+from compneuro.w1.d4_dimensionality_reduction.utils import plot_basis_vectors, plot_data_new_basis
 
 
 def get_data(cov_matrix):

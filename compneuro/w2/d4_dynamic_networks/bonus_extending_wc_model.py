@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.optimize as opt  # root-finding algorithm
 
-from w2.d4_dynamic_networks.utils import default_pars, get_E_nullcline, get_I_nullcline, plot_nullclines, EIderivs, F, \
+from compneuro.w2.d4_dynamic_networks.utils import default_pars, get_E_nullcline, get_I_nullcline, EIderivs, F, \
     my_plot_nullcline, plot_fp, dF, simulate_wc, my_plot_trajectories, my_plot_vector
 
 

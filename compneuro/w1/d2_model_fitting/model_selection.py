@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import KFold
 
-from w1.d2_model_fitting.utils import plot_MSE_poly_fits, plot_cross_validate_MSE
+from compneuro.w1.d2_model_fitting.utils import plot_cross_validate_MSE
 
 
 # @title Helper functions

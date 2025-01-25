@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from w2.d3_biological_neuron_models.utils import plot_volt_trace, plot_GWN, my_hists
+from compneuro.w2.d3_biological_neuron_models.utils import plot_volt_trace, my_hists
 
 
 def default_pars(**kwargs):

@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-from w1.d2_model_fitting.utils import evaluate_fits
+from compneuro.w1.d2_model_fitting.utils import evaluate_fits
 
 
 def plot_noisy_samples():

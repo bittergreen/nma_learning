@@ -1,11 +1,10 @@
 # Imports
-import math
 
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.optimize as opt  # root-finding algorithm
 
-from w2.d4_dynamic_networks.utils import plot_fI, plot_dr_r
+from compneuro.w2.d4_dynamic_networks.utils import plot_fI, plot_dr_r
 
 
 def default_pars_single(**kwargs):

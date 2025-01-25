@@ -3,11 +3,9 @@ import os
 import numpy as np
 import torch
 from torch import nn
-from torch import optim
 from matplotlib import pyplot as plt
-import matplotlib as mpl
 
-from w1.d5_deeplearning.utils import filters, grating, plot_example_activations
+from compneuro.w1.d5_deeplearning.utils import filters, grating, plot_example_activations
 
 
 def download_conv_data():

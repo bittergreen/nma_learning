@@ -1,11 +1,10 @@
 # Imports
 import numpy as np
-import matplotlib.pyplot as plt
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_val_score
 
-from w1.d3_glm.utils import load_steinmetz_data, plot_function, plot_weights, plot_non_zero_coefs, plot_model_selection
+from compneuro.w1.d3_glm.utils import load_steinmetz_data, plot_weights, plot_non_zero_coefs, plot_model_selection
 
 
 def sigmoid(z):

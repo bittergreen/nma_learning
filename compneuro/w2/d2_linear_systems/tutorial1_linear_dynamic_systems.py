@@ -1,11 +1,9 @@
 # Imports
-import math
 
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.integrate import solve_ivp  # numerical integration solver
 
-from w2.d2_linear_systems.utils import plot_trajectory, plot_specific_example_stream_plots
+from compneuro.w2.d2_linear_systems.utils import plot_trajectory, plot_specific_example_stream_plots
 
 
 def integrate_exponential(a, x0, dt, T):

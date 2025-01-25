@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-from w2.d3_biological_neuron_models.utils import my_GWN, example_plot_myCC, default_pars, my_raster_Poisson, \
+from compneuro.w2.d3_biological_neuron_models.utils import my_GWN, example_plot_myCC, default_pars, my_raster_Poisson, \
     LIF_output_cc, plot_c_r_LIF
 
 

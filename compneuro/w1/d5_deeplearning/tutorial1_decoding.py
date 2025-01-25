@@ -1,15 +1,11 @@
 # Imports
-import os
 import numpy as np
 
 import torch
 from torch import nn
 from torch import optim
 
-import matplotlib as mpl
-from matplotlib import pyplot as plt
-
-from w1.d5_deeplearning.utils import get_data, load_data, fname, plot_train_loss
+from compneuro.w1.d5_deeplearning.utils import load_data, fname, plot_train_loss
 
 
 class DeepNetReLU(nn.Module):

@@ -2,7 +2,7 @@ import numpy as np
 import scipy.stats as stats
 from matplotlib import pyplot as plt
 
-from w1.d2_model_fitting.utils import plot_observed_vs_predicted, plot_density_image, plot_original_and_resample
+from compneuro.w1.d2_model_fitting.utils import plot_density_image
 
 theta = 1.2
 
